@@ -1,0 +1,630 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Congregalis</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            
+                            <li class="current"><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#work">Works</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+
+                         </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.jfif" alt=""></div>
+                        <div class="author">
+                            <h3>Congregalis</h3>
+                            <div class="designation">
+                                立志做
+                                <div class="typing-title">
+                                    <p>一名 <strong>Java 程序员。</strong></p>
+                                    <p>一名 <strong>全栈工程师。</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <!-- <a href="#" class="theme-btn btn-style-one">简历下载</a> -->
+                        </div>
+                        <ul class="social-icon-two">
+                            <li><a href="https://github.com/Congregalis" target="_blank"><span class="fa fa-github" target="_blank"></span></a></li>
+                            <li><a href="https://congregalis.github.io/" target="_blank"><span class="fa icon-blog"></span></a></li>
+                            <!-- <li><a href="#"><span class="fa fa-weixin" target="_blank"></span></a></li>
+                            <li><a href="#"><span class="fa fa-bold" target="_blank"></span></a></li> -->
+                        </ul>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#about"><i class="flaticon-social"></i>关于我</a></li>
+                                <li><a href="#resume"><i class="flaticon-curriculum"></i>经历</a></li>
+                                <!-- <li><a href="#services"><i class="flaticon-layers-1"></i>Services</a></li> -->
+                                <li><a href="#work"><i class="flaticon-tools"></i>作品</a></li>
+                                <li><a href="#blog"><i class="flaticon-blog"></i>博客</a></li>
+                                <li><a href="#contact"><i class="flaticon-send-mail"></i>联系我</a></li>
+                            </ul>
+                        </header>
+
+                        <!-- card item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="images/resource/user.jfif" alt=""></div>
+                                <div class="author">
+                                    <h3>Congregalis</h3>
+                                    <div class="designation">
+                                        立志做
+                                        <div class="typing-title">
+                                            <p>一名 <strong>Java 程序员。</strong></p>
+                                            <p>一名 <strong>全栈工程师。</strong></p>
+                                            <!-- <p>a <strong>photographer.</strong></p> -->
+                                        </div>
+                                        <span class="typed-title"></span>
+                                    </div>
+                                </div>
+                                <div class="text">这个人很懒，还没写自我介绍。</div>
+                                <div class="link-btn">
+                                    <!-- <a href="#" class="theme-btn btn-style-one">简历下载</a> -->
+                                    <!-- <a href="#contact" class="theme-btn btn-style-two">联系我</a> -->
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href="https://github.com/Congregalis" target="_blank"><span class="fa fa-github"></span></a></li>
+                                    <li><a href="https://www.zhihu.com/people/wu-ming-4-16" target="_blank"><span class="fa icon-zhihu"></span></a></li>
+                                    <li><a href="https://space.bilibili.com/893795" target="_blank"><span class="fa icon-bilibili"></span></a></li>
+                                    <li><a href="https://congregalis.github.io/" target="_blank"><span class="fa icon-blog"></span></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">自我介绍</h4>
+                                <div class="text">这个人很懒，还没写自我介绍。</div>
+                                <div class="info-list">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>名字:</strong>  HZJ</li>
+                                                <li><strong>电话:</strong>  153-5883-7601</li>
+                                                <!-- <li><strong>Address:</strong>  San francisco, USA</li> -->
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>邮箱:</strong>  hongzj2056@foxmail.com</li>
+                                                <li><strong>职业:</strong>  学生</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                                <h4 class="title">技能</h4>
+                                <div class="row">
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="50">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="50" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>Java</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="45">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="40" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>Python</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="30">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="30" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>HTML </h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="20">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="20" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>NLP </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">经历</h4>
+                                <div class="row clearfix">
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-book"></span></div></div></div> <h2>学历</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>软件工程</h4>
+                                                    <div class="date"><span>2016-2020</span> / 西安交通大学 本科</div>
+                                                    <!-- <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div> -->
+                                                </div>
+                                            </div>
+
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>计算机科学与技术</h4>
+                                                    <div class="date"><span>2020-2023</span> / 西安交通大学 硕士</div>
+                                                    <!-- <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div> -->
+                                                </div>
+                                            </div>
+
+                                            <!--Timeline Block-->
+                                            <!-- <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Specialization Course</h4>
+                                                    <div class="date"><span>1998-2000</span> / University of stuties</div>
+                                                    <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div>
+                                                </div>
+                                            </div> -->
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-case"></span></div></div></div> <h2>工作</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>暂时还没有</h4>
+                                                    <!-- <div class="date"><span>2015-Present</span>  / Google inc.</div>
+                                                    <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div> -->
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Senior UI/UX Designer</h4>
+                                                    <div class="date"><span>2012-2014 </span> / Facebook inc.</div>
+                                                    <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Junior UI/UX Designer</h4>
+                                                    <div class="date"><span>2006-2011 </span>  / airbnb inc.</div>
+                                                    <div class="text">Exceptur sint occaecat cupidatat non proident sunt culpa. </div>
+                                                </div>
+                                            </div> -->
+
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-services card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">Services</h4>
+                                <div class="row">
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                                            <h4><a href="congregalis.github.io/">UI/UX Design</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                                            <h4><a href="blog-single.html">Web Design</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                                            <h4><a href="blog-single.html">Branding</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                                            <h4><a href="blog-single.html">Logo Design</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-web-design"></span></div>
+                                            <h4><a href="blog-single.html">Apps Design</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-photo-camera"></span></div>
+                                            <h4><a href="blog-single.html">Photography</a></h4>
+                                            <div class="text">Lorem ipsum dolor amet constur adipisicing elit </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-projects card-item" id="work" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">作品</h4>
+                                <div class="text">我的作品比较简陋，严格来说不算成品。</div>
+                                <br>
+                                <div class="row">
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/crawler.png" alt="image">
+                                                <div class="overlay">
+                                                    <!-- <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/crawler.png">
+                                                        <i class="fa fa-search"></i>
+                                                    </a> -->
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="https://github.com/Congregalis/tiny-crawler" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                           
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="https://github.com/Congregalis/tiny-crawler" target="_blank">Tiny-Crawler</a></h3>
+                                                <span>小而实用的 Java 爬虫框架</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/qgsystem1.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="http://zscl.xjtudlc.com:8089/" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="http://zscl.xjtudlc.com:8089/" target="_blank">QGSystem</a></h3>
+                                                <span>问答数据评估系统</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/qbank-sm.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="http://101.35.202.174/ask/" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="http://101.35.202.174/ask/" target="_blank">QBank</a></h3>
+                                                <span>卡片式的自问自答网站，快来巩固知识点吧</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/tic-tac-toe.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="https://tic-tac-toe-green-one.vercel.app/" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="https://tic-tac-toe-green-one.vercel.app/" target="_blank">简单井字棋</a></h3>
+                                                <span>React 写的双人本地对战井字棋，支持悔棋</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-sm-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/default.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="#">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">占位</a></h3>
+                                                <span>广告位招租！</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-sm-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/default.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="" title="Image Caption Here" data-fancybox-group="example-gallery" href="#">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">占位</a></h3>
+                                                <span>广告位招租！</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-blog card-item" id="blog" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">博客</h4>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/default.png" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="https://congregalis.github.io/2021/11/05/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94%E8%AE%BE%E8%AE%A1%E7%AF%87/">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>05</strong> <br>Nov</div>
+                                        <div class="lower-content">
+                                            <h4><a href="https://congregalis.github.io/2021/11/05/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6%E2%80%94%E2%80%94%E8%AE%BE%E8%AE%A1%E7%AF%87/">如何实现一个简单的爬虫框架——设计篇</a></h4>
+                                            <div class="post-meta">by Congregalis  /  <span>爬虫</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/default.png" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>01</strong> <br>Jun</div>
+                                        <div class="lower-content">
+                                            <h4><a href="https://congregalis.github.io/2021/06/01/%E4%BB%8Ecrawler4j%E6%BA%90%E7%A0%81%E4%B8%AD%E7%9C%8Bwait%E4%B8%8Enotify/">从crawler4j源码中看wait与notify</a></h4>
+                                            <div class="post-meta">by Congregalis  /  <span>Java</span> <span>多线程</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/default.png" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>23</strong> <br>May</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">前缀树/字典树的介绍及其简单应用</a></h4>
+                                            <div class="post-meta">by Congregalis  /  <span>算法与数据结构</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text">更多请关注<a href="https://congregalis.github.io/" target="_blank">我的博客</a></div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-contact card-item" id="contact" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h3 class="title">联系方式</h3>
+                                <!-- <h4>Keep In Touch</h4> -->
+                                <div class="row clearfix">
+                                    <div class="col-md-6">
+                                        <ul class="list-style-two">
+                                            <li><span class="icon flaticon-signs"></span>陕西省西安市 <br> 西安交通大学创新港 </li>
+                                            <!-- <li><span class="icon flaticon-smartphone"></span>(+86) 153-5883-7601<br>(+86) 153-5883-7601</li> -->
+                                            <li><span class="icon flaticon-note-1"></span>hongzj2056@foxmail.com <br>hongzj2056@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- <div class="map-section">
+                                            <div class="home-google-map">
+                                                <div 
+                                                    class="google-map" 
+                                                    id="contact-google-map" 
+                                                    data-map-lat="40.700843" 
+                                                    data-map-lng="-74.004012" 
+                                                    data-icon-path="images/icons/map-marker.png"
+                                                    data-map-title="Chester"
+                                                    data-map-zoom="11" >
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <h4>通过留言联系我</h4>
+                                <!-- Contact Form -->
+                                <!-- <div class="contact-form">
+                                    <form method="post" action="sendemail.php" id="contact-form">
+                                        <div class="row clearfix">
+                                            
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder="昵称" required>
+                                            </div>
+                                            
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder="邮箱" required>
+                                            </div>
+                                            
+                                            <div class="col-md-12 form-group">
+                                                <input type="text" name="subject" placeholder="主题">
+                                            </div>
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="phone" placeholder="电话">
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="留言"></textarea>
+                                            </div>
+                                            
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form">提交 </button>
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                        
+                                </div> -->
+                                <!--End Contact Form -->
+                                <!-- discus-->
+                                <div id="cusdis_thread"
+                                    data-host="https://cusdis.com"
+                                    data-app-id="71f0df26-1cbb-4262-b12f-d47f292508e4"
+                                    data-page-id="{{ PAGE_ID }}"
+                                    data-page-url="{{ PAGE_URL }}"
+                                    data-page-title="{{ PAGE_TITLE }}"
+                                ></div>
+                                <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
+
